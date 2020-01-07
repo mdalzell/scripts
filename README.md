@@ -9,10 +9,14 @@ Deletes any local branches besides `master` and `develop` in a git project. Use 
 ## push-to-s3
 
 **Prerequisites: awscli**
+
 Pushes a file to my s3 bucket.
 
 **Example:**
-`$ push-to-s3.sh file.pdf`
+
+```
+$ push-to-s3.sh file.pdf
+```
 
 ## startup
 
